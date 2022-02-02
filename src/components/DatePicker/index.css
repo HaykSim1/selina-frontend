@@ -1,0 +1,12 @@
+.date-picker-container {
+    margin: 5px;
+    display: flex;
+}
+
+.date-picker-container > input {
+    border-radius: 5px;
+}
+
+.date-picker-container.error >input {
+    border-color: red;
+}
